@@ -40,7 +40,7 @@ Clona el repositorio y ejecuta el script principal:
 ```bash
 git clone https://github.com/JPQ-exp/PDS-Simulacion-Ecosistema.git
 cd PDS-Simulacion-Ecosistema
-python ecosystem dynamics tkinter.py
+python PDS ecosistema tkinter.py
 ```
 
 ## 🎮 Interfaz de Usuario
