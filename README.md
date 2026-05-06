@@ -1,4 +1,4 @@
-<img width="840" height="650" alt="Simulación de ecosistema" src="https://github.com/user-attachments/assets/912ffe17-4c5c-468d-8299-b7b325beec4d" />
+<img width="838" height="649" alt="Simulación de ecosistema con rejilla" src="https://github.com/user-attachments/assets/3a31ab45-1bb2-4252-b4f7-d16d4eeb7969" />
 
 
 # PDS-Simulacion-Ecosistema
