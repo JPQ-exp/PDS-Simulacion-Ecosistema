@@ -74,6 +74,19 @@ La simulación incluye un panel de control en tiempo real (Tkinter) para manipul
 - **Barras Laterales:** Monitor de población en tiempo real.
 
 ---
+-**Actualizacion:**
+> "Al parecer dura 40+ min, por lo que el **Set Mínimo para la Persistencia Emergente**:
+> 
+> 🔘 Toro (Geometría sin bordes)
+> 🔘 Rejilla (Energía estructurada)
+> 🔘 Refugio (Visión local/asimetría)
+> 🔘 Dirección (Flujo de gradiente)
+> 🔘 Miedo (Campo repulsivo)
+> 🔘 Aging (Reciclaje de masa)
+> 🔘 Delay (Fricción temporal/digestión)
+> 
+> Independientemente de la ecuación usada, si estos 7 límites están presentes, el sistema alcanza un **Estado Estable de No-Equilibrio (NESS)**. La estabilidad no está en la fórmula, está en la estructura de las restricciones. Son libres de experimentar y validarlo 🧬🏗️"
+---
 
 ### Contribuciones
 Las ideas sobre cómo extender los retardos temporales o introducir mutaciones en los parámetros metabólicos son bienvenidas. Siéntete libre de abrir un *Issue* o enviar un *Pull Request*.
