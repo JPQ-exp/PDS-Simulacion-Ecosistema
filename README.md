@@ -20,6 +20,22 @@ A diferencia de las simulaciones ecológicas tradicionales que imponen límites 
 - **Geometría de Toro:** El espacio de simulación es topológicamente un toro, eliminando los efectos de borde y permitiendo flujos de población continuos.
 - **Escalamiento Alométrico:** Diferenciación física y energética entre especies. Los carnívoros son más masivos, poseen mayor inercia metabólica y requieren umbrales de replicación más altos.
 
+---
+
+## 🚀 Actualización: Refactorización de Percepción y Rendimiento
+
+Se ha implementado una nueva capa de lógica para mejorar la estabilidad del ecosistema y la eficiencia del procesamiento.
+
+### 🛠 Cambios incluidos:
+
+*   **Optimización de Rejilla:** Se ha ajustado la cuadrícula de alimento a **15x15**, creando un entorno de recursos más estratégico y visualmente limpio.
+*   **Visión Selectiva (Herbívoros):** Los agentes ahora poseen "conciencia de disponibilidad". Solo detectan y se dirigen a parches de comida que están activos (verdes), ignorando las celdas en proceso de regeneración.
+*   **Rango de Visión Fijo (Carnívoros):** Se ha implementado un radio de visión constante de **180px** para los depredadores, independientemente de los parámetros variables de los herbívoros, equilibrando la dinámica de caza.
+*   **Estabilización de FPS:** El motor de la simulación se ha sincronizado a **30 FPS (33ms por ciclo)**, eliminando el lag y garantizando una fluidez constante incluso con altas poblaciones.
+*   **Persistencia Estática:** El alimento ahora cambia de color (Verde $\leftrightarrow$ Negro) en lugar de desaparecer, permitiendo observar los patrones de consumo en la cuadrícula completa.
+
+---
+
 ## 🧠 Fundamentos Teóricos
 
 El motor de la simulación se basa en dos flujos acoplados:
